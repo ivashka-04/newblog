@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>СОздание новой записи</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
+<form method="post" action="/newblog/functions/add.php"  enctype="multipart/form-data">
+    <label for="title">Название </label>
+    <input type="text" id="title" name="title"><br>
 
+    <label for="title">описание</label>
+    <textarea name="content" id="content" cols="30" rows="10"></textarea><br>
+
+   
+
+    <input type="submit">
+</form>
 </body>
 </html>
